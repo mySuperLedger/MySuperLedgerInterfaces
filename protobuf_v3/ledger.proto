@@ -1,6 +1,7 @@
 syntax = "proto3";
 
 package gringofts.ledger.protos;
+option go_package = "autogen/protos";
 
 // The Ledger service definition.
 service LedgerService {
